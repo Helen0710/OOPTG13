@@ -1,6 +1,6 @@
 # Fifo in Pseudocode 
-```` python
-öffentlich Klasse Element
+```` smalltalk
+Operation pop() in Klasse Fifo
     current : Text
     next : Element
     next = null
@@ -13,7 +13,7 @@
     Ende öffentlich Element
 ``````
 
-```` python
+```` smalltalk
 Öffentlich Klasse Fifo 
 
     first: Element 
@@ -47,7 +47,7 @@
 
 ````
 
-```` python
+```` smalltalk
 Öffentlich Klasse Main
 
     Operation main(String[] args)
