@@ -77,4 +77,9 @@ Does the Set contains '91'?false
 Does the Set contains '7'? true
 Does the Set contains '8'? true
 `````
+## Besonderheiten 
 
+1. Die Werte werden nicht doppelt gespeichert 
+2. Die Werte werden direkt bei der Ausgabe sotiert
+3. Man kann mit einem Iterator über das Set itarieren 
+ > Da keine For schleife verwendet werden kann
