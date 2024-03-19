@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Datenschutz</title>
+<style>
+  .container {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 20px;
+    max-width: 300px;
+    max-height: 300px;
+    margin: 0 auto;
+    overflow: auto;
+  }
+  .btn {
+    background-color: #808080;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .btn:hover {
+    background-color: #666666;
+  }
+</style>
+</head>
+<body>  
+    
+<div class="container">
+  
+  <h2>Datenschutz</h2>
+  <p>Unter Bezugnahme auf die in der EU-DSGVO und im BDSG 2018 geregelten Bestimmungen versichere ich hiermit ausdrücklich, dass es sich bei den Daten, die von mir in den Fragebogen eingegeben werden, ausschließlich um meine persönlichen Daten handelt bzw. um Daten von Probanden, die den Fragebogen in Papierform ausgefüllt und mich mit der elektronischen Erfassung ihrer persönlichen Daten beauftragt und autorisiert haben.</p>
+  <p>Mit Beantwortung dieses Fragebogens erkläre ich mich damit einverstanden, dass sowohl die personenbezogenen Daten als auch die eingegebenen Antworten beim Lizenzgeber des Produkts AECdisc® Potenzialanalyse – namentlich Arc-en-Ciel – auf einem Server mit Standort in der EU zentral gespeichert werden. Die Speicherung erfolgt nur zu dem vertraglich vereinbarten Zweck. Arc-en-Ciel und DIV versichern, die Anforderungen der EU-DSGVO und des BDSG 2018 zu erfüllen.</p>
+  <p>Ihre Daten werden vertraulich behandelt. Eine Weiterleitung an Dritte erfolgt nicht.</p>
+  <p>Ihre Zugriffsrechte auf die Daten können Sie über Ihren Master Distributoren, der Ihnen den Link bereitgestellt hat, in Anspruch nehmen.</p>
+  <p>Sie haben das Recht, Ihr Einverständnis zur Speicherung der Daten jederzeit zu widerrufen und die Löschung zu verlangen. Diese wird dann unverzüglich erfolgen, sofern nicht aus anderen zwingenden gesetzlichen Gründen eine längere Aufbewahrung erforderlich ist.</p>
+  <button class="btn" id="confirmButton">Ich stimme zu</button>
+</div>
+
+<script>
+  document.getElementById("confirmButton").addEventListener("click", function() {
+    const items = document.getElementsByClassName('close-button');
+    for (let item of items) {
+      item.parentNode.classList.add('animationOut');
+      setTimeout(function(){
+        item.parentNode.remove();
+      }, 2000);
+    }
+  });
+</script>
+</body>
+</html>
+
+</html>
